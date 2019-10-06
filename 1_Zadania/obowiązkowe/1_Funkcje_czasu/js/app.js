@@ -9,4 +9,4 @@ function countHello (number) {
 },500);
 }
 
-countHello(5)
+countHello(5)   
