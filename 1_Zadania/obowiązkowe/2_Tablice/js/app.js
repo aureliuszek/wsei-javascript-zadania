@@ -82,3 +82,17 @@ function sortArray(array){
 
 sortArray([145,11,3,64,4,6,10]);
 
+//zadanie 7
+
+function addArrays(firstArray, secondArray){
+    let sumArrays = [];
+    for(let i = 0; i < firstArray.length; i++){
+        for(let j = 0; j < secondArray.length; j++)
+        {
+            Array.push.apply(firstArray[1] , secondArray[j]);
+        }
+    }
+    console.log(firstArray);   
+}
+addArrays([4,0,1,3,4], [1,9,6,7,8,17]) // do skonczenia
+
