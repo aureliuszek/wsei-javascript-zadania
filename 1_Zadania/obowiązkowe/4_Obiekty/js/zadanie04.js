@@ -9,6 +9,6 @@ var movie = [{
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
 }]
-for(let attr in movie){
+for (let attr in movie) {
     console.log(movie[attr])
 }

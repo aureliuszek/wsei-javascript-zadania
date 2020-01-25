@@ -6,8 +6,7 @@ var Robot = function (name) {
 Robot.prototype.sayHi = function (toWho) {
     if (this.isFunctional === true) {
         console.log("Robot " + this.name + " greets " + toWho);
-    }
-    else {
+    } else {
         console.log("Robot " + this.name + " is broken");
     }
 };

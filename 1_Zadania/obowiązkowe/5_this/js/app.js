@@ -3,10 +3,10 @@ const car = {
     brand: 'Seat',
     color: 'Srebrny',
     numberOfkilometers: 0,
-    printCarInfo: function(){
+    printCarInfo: function () {
         console.log(this.brand + ' ' + this.color + ' ' + this.numberOfkilometers + 'km')
     },
-    drive: function(km){
+    drive: function (km) {
         this.numberOfkilometers += km
     }
 }
@@ -26,19 +26,19 @@ console.log(car.technicalReview)
 
 //zadanie 3
 const stairs = {
-    step : 0,
-    up : function() {
+    step: 0,
+    up: function () {
         this.step++
     },
-    down : function() {
+    down: function () {
         this.step--
     },
-    printStep : function() {
+    printStep: function () {
         console.log(this.step)
     }
 }
 stairs.up();
 stairs.up();
 stairs.up();
-stairs.down(); 
+stairs.down();
 stairs.printStep();
